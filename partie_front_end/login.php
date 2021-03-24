@@ -21,7 +21,7 @@
 
         <div class="login-right">
             <p id="title-login">Log in</p>
-            <form name="login" class="formulaire-login" action="">
+            <form name="login" class="formulaire-login" action="log-filtration.php" method="POST">
                
                 <label>  EMAIL  </label><br>
                 <input  type="email" name="email" id="email"  >
@@ -29,7 +29,7 @@
                 <label>  PASSWORD  </label><br>
                 <input name="password"  type="password" id="password"  >
 
-         <input type="submit" id="button-login"  value="Login">  
+         <input type="submit" id="button-login" name="submit" value="Login">  
 
          <p style="color: red;font-size: 15px;text-align: center;" id="error2"></p>
 
