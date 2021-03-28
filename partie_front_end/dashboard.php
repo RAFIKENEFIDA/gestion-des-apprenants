@@ -74,7 +74,7 @@ include 'connection.php';
                          <input  id="idapprenant"  name="idapprenant" type="number"    value"" >
 <div>  <i class="fas fa-user-circle"></i> <input  id="firstname" name="firstname"  type="text" placeholder="   First Name"  value"" ></div>
 <div>  <i class="fas fa-user-circle"></i> <input id="lastname" name="lastname" type="text" placeholder="   Last Name"   value""> </div>
-<div>  <i class="far fa-calendar-alt"></i> <input id="naissance" name="naissance"   type="number" placeholder="    Date Of Birth" value""> </div>
+<div>  <i class="far fa-calendar-alt"></i> <input id="naissance" name="naissance"   type="date" placeholder="    Date Of Birth" value""> </div>
 <div>  <i class="fas fa-envelope"></i> <input id="email" name="email"  type="email" placeholder="    Email" pattern="^[a-zA-Z0-9.-]+[a-zA-Z0-9]+@[a-z]+.[a-z]{2,3}$" value""> </div>
 <div> <i class="fas fa-envelope"></i> <input id="sector" name="sector" type="text" placeholder="  Sector"   value""> </div>
 <div class="submit-edit"> <input type="submit" name="submit"  value="Edit" > </div>
